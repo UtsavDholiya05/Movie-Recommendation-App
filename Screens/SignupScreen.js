@@ -32,7 +32,7 @@ export default function SignupScreen({ navigation }) {
   const [numberError, setNumberError] = useState("");
   const [profilePhoto, setprofilePhoto] = useState(null);
   const [loading, setLoading] = useState(false);
-
+  
   // Email validation regex
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const { user, setUser } = useContext(UserContext);
